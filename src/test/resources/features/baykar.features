@@ -1,0 +1,9 @@
+Feature:baykar
+  @FeatureBaykar
+  Scenario:Baykar Website language check
+    Given Open BAYKAR website
+    When Click KizilElma Popup
+    And Save EN language and check HAKKIMIZDA
+    Then click En language
+    When Click KizilElma Popup
+    When Save TR language and check About Us
